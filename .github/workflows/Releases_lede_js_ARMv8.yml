@@ -75,10 +75,10 @@ jobs:
       uses: ophub/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: https://github.com/fichenx/Actions-OpenWrt/releases/download/lede_js_armvirt/openwrt-armvirt-64-generic-rootfs.tar.gz
-        PACKAGE_SOC: s905d_s905x3
+        PACKAGE_SOC: s905d
         WHOAMI: fichenx
         #KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt
-        KERNEL_VERSION_NAME: 5.4.210_5.10.136_5.15.74_6.1.20_6.6.27
+        KERNEL_VERSION_NAME: 6.1.y_6.6.y
         #OPENWRT_VER: R23.5.1
         KERNEL_AUTO_LATEST: true
         GZIP_IMGS: .gz
